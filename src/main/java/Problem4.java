@@ -7,6 +7,8 @@ public class Problem4 {
         // (EN) Write a Java Method to count all vowels in the entered String.
         // (TR) Girilen Stringdeki tüm sesli harfleri saymak için bir Java Methodu yazınız.
 
+        // FIRST WAY
+
         Scanner inp=new Scanner(System.in);
         System.out.println("Write your sentences");
         String str=inp.nextLine().toLowerCase();
@@ -15,7 +17,7 @@ public class Problem4 {
         String[] arrStr=str.split("");
 
         //Print Array:
-        System.out.println(Arrays.toString(arrStr));
+        //System.out.println(Arrays.toString(arrStr));
 
         int counter=0;
 
@@ -26,7 +28,19 @@ public class Problem4 {
                counter++;
            }
         }
+
+        System.out.println("FIRST WAY:");
+
         System.out.println("Total Vowel: " + counter);
+
+        // SECOND WAY
+
+        int numOfVowel=str.replaceAll("[^aeuio]","").length();
+
+        System.out.println("--------------");
+
+        System.out.println("SECOND WAY:");
+        System.out.println("Total Vowel: " + numOfVowel);
 
     }
 }
