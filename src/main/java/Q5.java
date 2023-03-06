@@ -1,18 +1,16 @@
 import java.util.Scanner;
 
-public class Problem5 {
-    public static void main(String[] args) {
+public class Q5 {/*
 
+    (TR) Kullanıcıdan bir harf girmesini isteyiniz. Girilen harf sesli ise Sesli harf olduğunu,
+         değilse sessiz harf olduğunu ekrana yazdırsın. Girdiği değer harf değilse ya da
+         1 karakterden fazla ise hata mesajı göstersin.
 
-        /* (TR) Kullanıcıdan bir harf girmesini isteyiniz. Girilen harf sesli ise Sesli harf olduğunu,
-        değilse sessiz harf olduğunu ekrana yazdırsın. Girdiği değer harf değilse ya da
-        1 karakterden fazla ise hata mesajı göstersin.
-
-        (EN) Ask the user to enter a letter. If the entered letter is a vowel, it is a vowel,
+    (EN) Ask the user to enter a letter. If the entered letter is a vowel, it is a vowel,
         if not, let it print the consonant on the screen. If the value entered is not a letter, or
         If it is more than 1 character, show an error message. */
 
-
+    public static void main(String[] args) {
 
         Scanner inp=new Scanner(System.in);
         String str;
@@ -34,15 +32,6 @@ public class Problem5 {
             }
 
         }while (!str.equals("0"));
-
-
-
-
-
-
-
-
-
 
     }
 }

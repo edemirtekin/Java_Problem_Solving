@@ -1,13 +1,14 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Problem4 {
+public class Q4 {
+
+    // (EN) Write a Java Method to count all vowels in the entered String.
+    // (TR) Girilen Stringdeki tüm sesli harfleri saymak için bir Java Methodu yazınız.
+
+
     public static void main(String[] args) {
 
-        // (EN) Write a Java Method to count all vowels in the entered String.
-        // (TR) Girilen Stringdeki tüm sesli harfleri saymak için bir Java Methodu yazınız.
-
-        // FIRST WAY
+        // FIRST WAY/BİRİNCİ YOL
 
         Scanner inp=new Scanner(System.in);
         System.out.println("Write your sentences");
@@ -33,7 +34,7 @@ public class Problem4 {
 
         System.out.println("Total Vowel: " + counter);
 
-        // SECOND WAY
+        // SECOND WAY/İKİNCİ YOL
 
         int numOfVowel=str.replaceAll("[^aeuio]","").length();
 

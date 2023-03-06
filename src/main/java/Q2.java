@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-public class Problem2 {
-    public static void main(String[] args) {
+public class Q2 {
 
-        // (EN) Write Java code that compares two entered String data.
-        // (TR) Girilen iki String veriyi karşılaştıran Java kodu yazınız.
+    // (EN) Write Java code that compares two entered String data.
+    // (TR) Girilen iki String veriyi karşılaştıran Java kodu yazınız.
+
+    public static void main(String[] args) {
 
         Scanner inp =new Scanner(System.in);
 

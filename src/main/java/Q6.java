@@ -1,18 +1,16 @@
 import java.util.Scanner;
 
-public class Problem6 {
+public class Q6 {/*
 
-    /* (TR) Girilen bir sayının ugly number olup olmadığını kontrol etmek için bir Java programı yazın.
+    (TR) Girilen bir sayının ugly number olup olmadığını kontrol etmek için bir Java programı yazın.
     Sayı sisteminde ugly number sadece asal faktörleri 2, 3 veya 5 olan pozitif sayılardır.
     İlk 10 ugly number 1, 2, 3, 4, 5, 6, 8, 9, 10, 12'dir. Kural olarak, 1 dahil.
 
     (EN) Write a Java program to check if a number entered is Ugly Number.
      In the number system, Ugly Number are only positive numbers with prime factors 2, 3 or 5.
-     The first 10 ugly number 1, 2, 3, 4, 5, 6, 8, 9, 10, 12. As a rule, including 1.
-     */
+     The first 10 ugly number 1, 2, 3, 4, 5, 6, 8, 9, 10, 12. As a rule, including 1. */
 
     public static void main(String[] args) {
-
 
         Scanner inp = new Scanner(System.in);
         int num = 0;
